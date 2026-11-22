@@ -2,6 +2,8 @@ import sys
 
 
 def greet(name):
+    if not name:
+        return "hello, world"
     return f"hello, {name}"
 
 
